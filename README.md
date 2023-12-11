@@ -1,2 +1,0 @@
-# Automatizador
-Automatizador de Documentos

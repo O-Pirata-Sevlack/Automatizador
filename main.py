@@ -32,6 +32,7 @@ def index():
         mês = mês.strftime('%B')
         ano = str(datetime.now().year)
 
+
         referencias = {
             "Genero_R" : Genero_R,
             "Nome_R" : Nome_R,
@@ -49,7 +50,24 @@ def index():
             "Gênero_E" : Genero_E,
             "Cargo_E" : Cargo_E,
             "Corpo do documento com identificação de primeira linha" : Texto,
-
+        }
+        referencias = {
+            "Genero_R" : Genero_R,
+            "Nome_R" : Nome_R,
+            "Cargo_R" : Cargo_R,
+            "Órgão_R" : Órgão_R,
+            "Endereço_R" : Endereço_R,
+            "CEP_R" : Cep_R,   
+            "Cidade_R" : Cidade_R,
+            "dia" : dia,
+            "mês" : mês,
+            "ano" : ano,
+            "número" : contador,
+            "Descrever, de forma sucinta, o conteúdo do documento" : Assunto,
+            "Nome_E" : Nome_E,
+            "Gênero_E" : Genero_E,
+            "Cargo_E" : Cargo_E,
+            "Corpo do documento com identificação de primeira linha" : Texto,
             }
 
         for paragrafo in documento.paragraphs:
